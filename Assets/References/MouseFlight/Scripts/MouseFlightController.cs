@@ -41,7 +41,7 @@ namespace MFlight
         private bool showDebugInfo = false;
 
         private Vector3 frozenDirection = Vector3.forward;
-        private bool isMouseAimFrozen = false;
+        private bool isMouseAimFrozen = true;
 
         /// <summary>
         /// Get a point along the aircraft's boresight projected out to aimDistance meters.
